@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+sudo apt install vim git python3-pip htop qbittorrent gparted redshift nmap arp-scan
