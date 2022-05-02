@@ -11,7 +11,7 @@ $ ./bash_profile.rb
 Enter distro (deb/arch/fedora): deb  
 Enter desktop environment (xfce/kde/gnome): xfce  
   
-.bash_profile written succesfully.  
+/home/user/configs/.bash_profile written succesfully.  
 ```  
 ```sh
 $ cat .bash_profile  
@@ -36,7 +36,7 @@ __Example Output__
 $ ./fresh_install.rb
 Enter distro (deb/arch/fedora): fedora
 
-fresh_install.sh written succesfully.
+/home/user/configs/fresh_install.sh written succesfully.
 ```
 ```sh
 $ cat fresh_install.sh 
