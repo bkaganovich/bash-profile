@@ -4,16 +4,16 @@
 # Creates script to remove and install desired packages after fresh installion
 
 remove =    ["transmission",
-			"thunderbird"]
+            "thunderbird"]
 
 install =   ["vim",
             "git",
             "htop",
             "qbittorrent",
-			"gparted",
-			"redshift",
-			"nmap",
-			"arp-scan"]
+            "gparted",
+            "redshift",
+            "nmap",
+            "arp-scan"]
 
 distro = ARGV[0]
 if ARGV.empty?
@@ -41,3 +41,4 @@ content = "#!/bin/bash\n" +
 File.write(filename, content)
 
 puts "\n#{filename} written succesfully."
+
