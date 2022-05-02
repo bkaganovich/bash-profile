@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-sudo pacman -S vim git python-pip htop qbittorrent gparted redshift nmap arp-scan
