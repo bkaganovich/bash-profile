@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-# File: universal.rb
+# File: bash_profile.rb
 # Create .bash_profile based on distribution and desktop environment
 
 aliases = [

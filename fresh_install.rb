@@ -3,17 +3,17 @@
 # File: fresh_install.rb
 # Creates script to remove and install desired packages after fresh installion
 
-remove =	["transmission", 
-			"thunderbird"]
+remove =	["transmission",
+					"thunderbird"]
 
 install =	["vim",
-			"git",
-			"htop",
-			"qbittorrent",
-			"gparted",
-			"redshift",
-			"nmap",
-			"arp-scan"]
+					"git",
+					"htop",
+					"qbittorrent",
+					"gparted",
+					"redshift",
+					"nmap",
+					"arp-scan"]
 
 distro = ARGV[0]
 if ARGV.empty?
