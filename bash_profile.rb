@@ -22,10 +22,16 @@ end
 case distro
 when "deb"
     aliases.append("alias up='sudo apt update && sudo apt upgrade' #debian")
+    aliases.append("alias install='sudo apt install' #debian")
+    aliases.append("alias remove='sudo apt remove' #debian")
 when "arch"
     aliases.append("alias up='sudo pacman -Syu' #arch")
+    aliases.append("alias install='sudo pacman -S' #arch")
+    aliases.append("alias remove='sudo pacman -R' #arch")
 when "fedora"
     aliases.append("alias up='sudo dnf update' #fedora")
+    aliases.append("alias install='sudo dnf install' #fedora")
+    aliases.append("alias remove='sudo dnf remove' #fedora")
 end
 
 de = ARGV[1]
