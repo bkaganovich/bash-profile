@@ -15,7 +15,9 @@ install = [
     "gparted",
     "redshift",
     "nmap",
-    "arp-scan"]
+    "arp-scan",
+    "simple-scan",
+    "retext"]
 
 distro = ARGV[0]
 if ARGV.empty?
