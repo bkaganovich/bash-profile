@@ -8,6 +8,8 @@ remove = [
     "thunderbird"]
 
 install = [
+    "curl",
+    "tree",
     "vim",
     "git",
     "htop",
