@@ -12,6 +12,7 @@ install = [
     "tree",
     "vim",
     "git",
+    "python3-pip",
     "htop",
     "qbittorrent",
     "gparted",
